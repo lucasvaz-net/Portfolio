@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://localhost:7056/api',
+  baseURL: 'https://portfolioapi.lucasvaz.dev.br/api',
   headers: {
     'Content-Type': 'application/json'
   }
